@@ -70,6 +70,8 @@
   <ItemGroup>
     <Content Include="Content\styles\styles.css" />
     <Content Include="App.asset.config" />
+    <None Include="Controllers\AdamSuccess\AdamSuccessView.spark" />
+    <None Include="Controllers\Adam\AdamView.spark" />
     <None Include="Controllers\Sleep\PartialSleepAsync.spark" />
     <None Include="Controllers\Sleep\RemAsync.spark" />
     <None Include="Controllers\ThreePassRendering\ThreePassSample.spark" />
