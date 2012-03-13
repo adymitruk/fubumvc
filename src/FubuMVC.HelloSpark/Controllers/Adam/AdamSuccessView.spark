@@ -1,4 +1,4 @@
 ﻿<use master="" />
-<viewdata model="FubuMVC.HelloSpark.AdamSuccessModel" />
+<viewdata model="FubuMVC.HelloSpark.Controllers.Adam.AdamSuccessView" />
 <h2>This is the adam input model</h2>
 <p>You have successfully entered ${Model.CreditCard}!</p>
