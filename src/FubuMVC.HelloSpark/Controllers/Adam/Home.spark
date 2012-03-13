@@ -1,8 +1,8 @@
 ﻿<use master="" />
-<viewdata model="FubuMVC.HelloSpark.AdamInputModel" />
+<viewdata model="FubuMVC.HelloSpark.Controllers.Adam.AdamViewModel" />
 <h2>This is the adam input model</h2>
 <div>!{Model.Message}</div>
-<form model="FubuMVC.HelloSpark.AdamInputModel" >
+<Form model="FubuMVC.HelloSpark.Controllers.Adam.AdamInputModel" >
   <input id="CreditCard" name="CreditCard" type="text" />
   <input type="submit" value="Submit" />
-</form>
+</Form>
