@@ -3,6 +3,6 @@
 <h2>This is the adam input model</h2>
 <div>!{Model.Message}</div>
 <Form model="FubuMVC.HelloSpark.Controllers.Adam.AdamInputModel" >
-  <input id="CreditCard" name="CreditCard" type="text" />
+  <input id="CreditCard" name="CreditCard" type="text" value="!{Model.CreditCard}" />
   <input type="submit" value="Submit" />
 </Form>
