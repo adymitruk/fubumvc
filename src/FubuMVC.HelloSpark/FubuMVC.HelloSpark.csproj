@@ -70,8 +70,8 @@
   <ItemGroup>
     <Content Include="Content\styles\styles.css" />
     <Content Include="App.asset.config" />
-    <None Include="Controllers\AdamSuccess\AdamSuccessView.spark" />
-    <None Include="Controllers\Adam\AdamView.spark" />
+    <None Include="Controllers\Adam\AdamSuccessView.spark" />
+    <None Include="Controllers\Adam\Home.spark" />
     <None Include="Controllers\Sleep\PartialSleepAsync.spark" />
     <None Include="Controllers\Sleep\RemAsync.spark" />
     <None Include="Controllers\ThreePassRendering\ThreePassSample.spark" />
@@ -114,6 +114,10 @@
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="AsyncErrorHandling.cs" />
+    <Compile Include="Controllers\Adam\AdamInputModel.cs" />
+    <Compile Include="Controllers\Adam\AdamResultModel.cs" />
+    <Compile Include="Controllers\Adam\AdamTestController.cs" />
+    <Compile Include="Controllers\Adam\AdamViewModel.cs" />
     <Compile Include="Controllers\Family\FamilyController.cs" />
     <Compile Include="Controllers\Sleep\SleepController.cs" />
     <Compile Include="Controllers\ThreePassRendering\ThreePassController.cs" />
